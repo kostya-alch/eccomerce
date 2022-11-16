@@ -1,10 +1,55 @@
-<script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue';
-</script>
-
 <template>
-  <div>Здарова!</div>
-  <hello-world msg="say" />
+  <div class="container">
+    <Header />
+    <p>dadaada</p>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+@font-face {
+  font-family: 'Satoshi';
+  src: local('Satoshi'), url('@/assets/fonts/Satoshi-Regular.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clash Display';
+  src: local('Clash Display'), url('@/assets/fonts/ClashDisplay-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clash Display';
+  src: local('Clash Display'), url('@/assets/fonts/ClashDisplay-Regular.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+</style>
+
+<script>
+import Header from '@/components/Header.vue';
+
+export default {
+  components: { Header },
+};
+</script>
