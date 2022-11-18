@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <Header />
+    <Hero />
   </div>
 </template>
 
@@ -40,6 +41,10 @@ body {
   font-size: 16px;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   max-width: 1140px;
   margin: auto;
@@ -48,8 +53,9 @@ body {
 
 <script>
 import Header from "@/components/Header.vue";
+import Hero from "@/components/Hero.vue";
 
 export default {
-  components: { Header },
+  components: { Hero, Header },
 };
 </script>
