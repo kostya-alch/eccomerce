@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <Header />
-    <p>dadaada</p>
   </div>
 </template>
 
