@@ -6,24 +6,24 @@
 
 <style scoped lang="scss">
 @font-face {
-  font-family: 'Satoshi';
-  src: local('Satoshi'), url('@/assets/fonts/Satoshi-Regular.woff2') format('woff2');
+  font-family: "Satoshi";
+  src: local("Satoshi"), url("@/assets/fonts/Satoshi-Regular.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Clash Display';
-  src: local('Clash Display'), url('@/assets/fonts/ClashDisplay-Medium.woff2') format('woff2');
+  font-family: "Clash Display";
+  src: local("Clash Display"), url("@/assets/fonts/ClashDisplay-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Clash Display';
-  src: local('Clash Display'), url('@/assets/fonts/ClashDisplay-Regular.woff2') format('woff2');
+  font-family: "Clash Display";
+  src: local("Clash Display"), url("@/assets/fonts/ClashDisplay-Regular.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -36,7 +36,8 @@
 }
 
 body {
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
 }
 
 .container {
@@ -46,7 +47,7 @@ body {
 </style>
 
 <script>
-import Header from '@/components/Header.vue';
+import Header from "@/components/Header.vue";
 
 export default {
   components: { Header },
