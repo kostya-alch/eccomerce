@@ -2,10 +2,11 @@
   <div class="container">
     <Header />
     <Hero />
+    <AboutBrand />
   </div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
 @font-face {
   font-family: "Satoshi";
   src: local("Satoshi"), url("@/assets/fonts/Satoshi-Regular.woff2") format("woff2");
@@ -54,8 +55,9 @@ img {
 <script>
 import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
+import AboutBrand from "@/components/AboutBrand.vue";
 
 export default {
-  components: { Hero, Header },
+  components: { AboutBrand, Hero, Header },
 };
 </script>
