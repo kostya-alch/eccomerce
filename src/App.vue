@@ -3,8 +3,16 @@
     <Header />
     <Hero />
     <AboutBrand />
+    <products />
   </div>
 </template>
+
+<script setup>
+import Header from "@/components/Header.vue";
+import Hero from "@/components/Hero.vue";
+import AboutBrand from "@/components/AboutBrand.vue";
+import Products from "@/components/Products.vue";
+</script>
 
 <style lang="scss">
 @font-face {
@@ -51,13 +59,3 @@ img {
   margin: auto;
 }
 </style>
-
-<script>
-import Header from "@/components/Header.vue";
-import Hero from "@/components/Hero.vue";
-import AboutBrand from "@/components/AboutBrand.vue";
-
-export default {
-  components: { AboutBrand, Hero, Header },
-};
-</script>
